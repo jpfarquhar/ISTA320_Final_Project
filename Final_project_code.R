@@ -19,7 +19,7 @@ world_volcanos$`Volcano Number` <- as.factor(world_volcanos$`Volcano Number`)
 # The first plot shows eruptions that occurred in BCE years, and how these powerful eruptions were still forming and changing the landscape of our country.
 # The second plot shows eruptions all the way up until the most recent one in 2004, and is a visualization of the variability this volcano exhibits. Some years the eruptions are enormous and destructive while other years they are relatively small and not too harmful.
 # This is a good way to explain how future eruptions are unpredictable and can be much worse than the three most recent events. 
-
+# Thanks
 
 color_blindPalette <- c("#000000", "#990000", "#000066", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7", "#FFFFFF")
   
