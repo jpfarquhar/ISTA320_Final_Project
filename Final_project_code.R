@@ -2,6 +2,7 @@ library(tidyverse)
 library(ggplot2)
 library(tidyr)
 library(usmap)
+library(readxl)
 
 world_volcanos <- read_excel("GVP_Volcano_List_Holocene.xls")
 glimpse(world_volcanos)
@@ -61,7 +62,7 @@ volcanos_by_country_barplot <- ggplot(top_countries, aes(Country, total_obs, yla
 volcanos_by_country_barplot
 
 
-Mt_St_Helens_Eruptions
+Mt_St_Helens_Eruptions <- read_excel("Mt_St_Helens_Eruptions.xlsx")
 
 BCE_Mt_St_Helens_Eruptions <- Mt_St_Helens_Eruptions %>%
   filter(Era == "BCE")
