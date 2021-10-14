@@ -80,7 +80,7 @@ BCE_Mt_St_Helens_lineplot
 
 CE_Mt_St_Helens_lineplot <- ggplot(CE_Mt_St_Helens_Eruptions, aes(x = `Start Date`, y = VEI)) + 
   geom_point() + 
-  geom_text(check_overlap = TRUE, aes(label = `Start Date` * -1, hjust = 0.50, vjust = -0.5)) +
+  geom_text(check_overlap = TRUE, aes(label = `Start Date`, hjust = 0.50, vjust = -0.5)) +
   geom_line() +
   labs(title = "VEI of Mt. St. Helens Eruptions Through Time (CE)", x = "Year CE", y = "VEI")
 CE_Mt_St_Helens_lineplot
